@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeadFlow Pro | 3× More Roofing Leads in 48 Hours</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Segoe UI',sans-serif;background:#f9f9f9;color:#333;line-height:1.6}
+        .container{max-width:1400px;margin:0 auto;padding:0 20px}
+
+        header{background:linear-gradient(135deg,#1e3c72,#2a5298);color:white;padding:1.2rem 0;position:fixed;width:100%;top:0;z-index:1000;box-shadow:0 6px 30px rgba(0,0,0,.25)}
+        nav{display:flex;justify-content:space-between;align-items:center}
+        .logo{font-size:2.2rem;font-weight:900}
+        .phone{font-size:1.7rem;font-weight:bold}
+        .phone:hover{color:#ffd700}
+
+        .hero{background:url('images/hero.webp') center/cover no-repeat;height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;color:white;position:relative}
+        .hero::before{content:'';position:absolute;inset:0;background:rgba(0,0,0,.62)}
+        .hero h1{font-size:5.2rem;text-shadow:4px 4px 16px #000;margin-bottom:1rem}
+        .hero p{font-size:1.9rem;max-width:900px;margin:0 auto 2.5rem}
+        .cta{background:#ffd700;color:#1e3c72;padding:1.6rem 4.5rem;font-size:1.7rem;border-radius:60px;font-weight:bold;text-decoration:none;display:inline-block}
+        .cta:hover{transform:scale(1.1);box-shadow:0 20px 50px rgba(255,215,0,.5)}
+
+        .results{padding:140px 0 120px;background:white;text-align:center}
+        .results h2{font-size:3.8rem;color:#1e3c72;margin-bottom:5rem;font-weight:900}
+        .client-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(460px,1fr));gap:4rem}
+        .client-card{background:#fff;border-radius:24px;overflow:hidden;box-shadow:0 25px 60px rgba(0,0,0,.18);transition:.4s}
+        .client-card:hover{transform:translateY(-20px)}
+        .client-card h3{background:#2a5298;color:white;padding:1.5rem;font-size:1.9rem;font-weight:bold}
+        .proofs{display:flex;flex-wrap:wrap;justify-content:center;gap:2.5rem;padding:3rem 2rem;background:#f8f9fa}
+        .proof{background:white;padding:2rem;border-radius:18px;box-shadow:0 12px 35px rgba(0,0,0,.12);width:360px}
+        .proof img{width:360px;height:360px;object-fit:contain;background:#fff;border-radius:14px;border:6px solid #fff;box-shadow:0 10px 30px rgba(0,0,0,.2)}
+        .proof small{display:block;margin-top:16px;font-size:1.4rem;font-weight:bold;color:#1e3c72}
+
+        /* Full-width featured client (Coopers HVAC) */
+        .featured-client{grid-column:1/-1;max-width:1400px;margin:3rem auto 0}
+        .featured-client .proofs{gap:3.5rem;padding:4rem 3rem}
+        .featured-client .proof{width:380px}
+        .featured-client .proof img{width:380px;height:380px}
+
+        footer{background:#111;color:#ccc;padding:4rem 0;text-align:center;font-size:1.2rem}
+
+        @media(max-width:768px){
+            .hero h1{font-size:3.2rem}
+            .proof,.featured-client .proof{width:300px}
+            .proof img,.featured-client .proof img{width:300px;height:300px}
+            .featured-client .proofs{flex-direction:column;align-items:center}
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav class="container">
+        <div class="logo">LeadFlow Pro</div>
+        <a href="tel:+1555323349" class="phone">Call Now: (555) 323-349</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>We 3× Roofing & Local Leads<br>in 48 Hours — Guaranteed</h1>
+        <p>Speed • Rankings • More Phone Calls</p>
+        <a href="tel:+1555323349" class="cta">Get Your Free Audit Now</a>
+    </div>
+</section>
+
+<section class="results">
+    <div class="container">
+        <h2>Real Clients — Real Proof</h2>
+        <div class="client-grid">
+
+            <!-- CLIENT 1 – Carolina Roofing Pros -->
+            <div class="client-card">
+                <h3>Carolina Roofing Pros</h3>
+                <div class="proofs">
+                    <div class="proof"><img src="images/roofingspeed.png" alt="Speed"><small>8.2s → 2.1s Load Time</small></div>
+                    <div class="proof"><img src="images/carr2.jpg" alt="Ranking"><small>#24 → #5 Google Maps</small></div>
+                    <div class="proof"><img src="images/carr1.png" alt="Design"><small>Outdated → Modern Site</small></div>
+                </div>
+            </div>
+
+            <!-- CLIENT 2 – Performance Collision -->
+            <div class="client-card">
+                <h3>Performance Collision</h3>
+                <div class="proofs">
+                    <div class="proof"><img src="images/perfspeed.jpg" alt="Speed"><small>4.8s → 2.2s Core Vitals</small></div>
+                    <div class="proof"><img src="images/performrank.jpg" alt="Ranking"><small>12th → 2nd Place</small></div>
+                    <div class="proof"><img src="images/collisiondemo.jpg" alt="Design"><small>Dark & Slow → Clean & Fast</small></div>
+                </div>
+            </div>
+
+            <!-- CLIENT 3 – COOPERS HVAC – FULL WIDTH FEATURED -->
+            <div class="client-card featured-client">
+                <h3>Coopers HVAC</h3>
+                <div class="proofs">
+                    <div class="proof"><img src="images/coopersspeed.jpg" alt="Speed"><small>8.2s → 2.1s Speed Audit</small></div>
+                    <div class="proof"><img src="images/CoopersRank.png" alt="Ranking""><small>23rd → 3rd Place</small></div>
+                    <div class="proof"><img src="images/cooperspluming.jpg" alt="Redesign"><small>Full Brand Refresh</small></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2025 LeadFlow Pro • We fix slow sites. We get you ranked. We make your phone ring.
+</footer>
+
+</body>
+</html>
